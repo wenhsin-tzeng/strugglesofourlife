@@ -1,0 +1,137 @@
+body{
+  background: rgb(6,29,91);
+  background: linear-gradient(90deg, rgba(6,29,91,1) 0%, rgba(31,78,157,1) 31%, rgba(84,149,254,1) 67%, rgba(177,207,255,1) 89%, rgba(230,239,255,1) 100%);
+}
+h1{
+  color: white;
+}
+.title{
+  font-family: 'Abril Fatface', cursive;
+  word-spacing: 6px;
+  letter-spacing: 2px;
+  font-size: 48px;
+  /* line-height: 60px; */
+  animation-name: changecolor;
+  animation-duration: 15s;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes changecolor{
+  0%   {color:white;}
+  25%  {color:orange;}
+  50%  {color:white;}
+  75%  {color:red;}
+  100% {color:white;}
+}
+.box1{
+  margin-left: 90px;
+  margin-top: 280px;
+}
+.bubble1{
+  background-color: white;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  margin-left: 460px;
+  padding-bottom: 40px;
+  margin-top: -250px;
+}
+.bubble2{
+  background-color: blue;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  margin-left: 750px;
+  padding-bottom: 40px;
+  margin-top: -290px;
+}
+.bubble3{
+  background-color: red;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  margin-left: 1040px;
+  padding-bottom: 40px;
+  margin-top: -290px;
+}
+.info1, .info2, .info3 {
+  text-align: center;
+}
+.linkone, .linktwo, .linkthree{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25px;
+  position: relative;
+  top: 80px;
+
+}
+a.linkone:link{
+  text-decoration: none;
+  color: darkblue;
+}
+a.linkone:visited{
+  text-decoration: none;
+  color: orange;
+}
+a.linkone:hover{
+  color: orange;
+  text-decoration: underline;
+}
+a.linkone:active{
+  color: orange;
+}
+
+a.linktwo:link{
+  text-decoration: none;
+  color: darkblue;
+}
+a.linktwo:visited{
+  text-decoration: none;
+  color: white;
+}
+a.linktwo:hover{
+  color: white;
+  text-decoration: underline;
+}
+a.linktwo:active{
+  color: blue;
+}
+
+a.linkthree:link{
+  text-decoration: none;
+  color: darkblue;
+}
+a.linkthree:visited{
+  text-decoration: none;
+  color: white;
+}
+a.linkthree:hover{
+  color: white;
+  text-decoration: underline;
+}
+a.linkthree:active{
+  color: red;
+}
+.bodyinfo1, .bodyinfo2, .bodyinfo3{
+  position: relative;
+  width: 170px;
+  top: 90px;
+  left: 40px;
+  color: grey;
+  font-size: 12pt;
+}
+.bodyinfo2{
+  position: relative;
+  width: 170px;
+  top: 90px;
+  left: 45px;
+  color: lightblue;
+  font-size: 12pt;
+}
+.bodyinfo3{
+  position: relative;
+  width: 170px;
+  top: 90px;
+  left: 47px;
+  color: lightpink;
+  font-size: 12pt;
+}
